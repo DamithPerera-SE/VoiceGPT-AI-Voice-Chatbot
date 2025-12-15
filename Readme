@@ -1,0 +1,209 @@
+VoiceGPT – AI Voice Chatbot
+Project Description
+
+VoiceGPT is an intelligent voice-based chatbot that allows users to interact with AI using natural spoken language. It integrates OpenAI GPT API, speech-to-text (STT), and text-to-speech (TTS) technologies, enabling a fully voice-enabled conversational experience. Users speak their messages, which are converted to text, processed by GPT, and then read aloud for a hands-free AI interaction.
+
+Features
+
+Voice Input (STT): Convert spoken words into text.
+
+AI Response Generation: Human-like responses via OpenAI GPT-3.5/4.
+
+Voice Output (TTS): Read AI responses aloud.
+
+Conversation Memory: Maintains context for better replies.
+
+Cross-Platform: Works on web browsers and can be adapted for mobile.
+
+Technologies Used
+
+Frontend: React.js, HTML, CSS, JavaScript
+
+Backend: Python Flask
+
+AI Model: OpenAI GPT API
+
+Speech Recognition: OpenAI Whisper API or Web Speech API
+
+Text-to-Speech: pyttsx3, gTTS, or browser TTS API
+
+Hosting: Vercel (frontend), Heroku/AWS (backend)
+
+Installation & Setup
+Backend
+
+Clone the repository and navigate to the backend folder:
+
+cd backend
+
+
+Create and activate a virtual environment:
+
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Set your OpenAI API key in .env:
+
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
+
+
+Run the backend server:
+
+python app.py
+
+Frontend
+
+Navigate to frontend folder:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Run the frontend:
+
+npm start
+
+Usage
+
+Open the frontend in your browser (http://localhost:3000).
+
+Speak into the microphone.
+
+The chatbot will respond both in text and voice.
+
+Continue conversation naturally.
+
+Applications
+
+Virtual personal assistant
+
+Accessibility tool for visually impaired users
+
+Interactive learning and tutoring
+
+Voice-enabled customer support
+
+License
+
+This project is open-source under the MIT License.
+
+If you want, I can also make a fully formatted GitHub project structure with all folders, frontend/backend code, and voice integration ready to run.
+
+Do you want me to do that?
+
+by undergrate softare enginering damith perera
+
+Got it! I can update the README to include your author name and details as an undergraduate student. Here’s the revised version:
+
+VoiceGPT – AI Voice Chatbot
+Project Description
+
+VoiceGPT is an intelligent voice-based chatbot that allows users to interact with AI using natural spoken language. It integrates OpenAI GPT API, speech-to-text (STT), and text-to-speech (TTS) technologies, enabling a fully voice-enabled conversational experience. Users speak their messages, which are converted to text, processed by GPT, and then read aloud for a hands-free AI interaction.
+
+Features
+
+Voice Input (STT): Convert spoken words into text.
+
+AI Response Generation: Human-like responses via OpenAI GPT-3.5/4.
+
+Voice Output (TTS): Read AI responses aloud.
+
+Conversation Memory: Maintains context for better replies.
+
+Cross-Platform: Works on web browsers and can be adapted for mobile.
+
+Technologies Used
+
+Frontend: React.js, HTML, CSS, JavaScript
+
+Backend: Python Flask
+
+AI Model: OpenAI GPT API
+
+Speech Recognition: OpenAI Whisper API or Web Speech API
+
+Text-to-Speech: pyttsx3, gTTS, or browser TTS API
+
+Hosting: Vercel (frontend), Heroku/AWS (backend)
+
+Installation & Setup
+Backend
+
+Clone the repository and navigate to the backend folder:
+
+cd backend
+
+
+Create and activate a virtual environment:
+
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Set your OpenAI API key in .env:
+
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
+
+
+Run the backend server:
+
+python app.py
+
+Frontend
+
+Navigate to frontend folder:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Run the frontend:
+
+npm start
+
+Usage
+
+Open the frontend in your browser (http://localhost:3000).
+
+Speak into the microphone.
+
+The chatbot will respond both in text and voice.
+
+Continue conversation naturally.
+
+Applications
+
+Virtual personal assistant
+
+Accessibility tool for visually impaired users
+
+Interactive learning and tutoring
+
+Voice-enabled customer support
+
+Author
+
+Damith Perera – Undergraduate in Software Engineering
+
+License
+
+This project is open-source under the MIT License.

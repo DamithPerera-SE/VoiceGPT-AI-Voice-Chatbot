@@ -2,3 +2,5 @@ flask
 flask-cors
 openai
 python-dotenv
+cd "C:\Users\This Pc\OneDrive\Documents\GitHub\VoiceGPT-AI-Voice-Chatbot\backend"
+cd "C:\Users\This Pc\OneDrive\Documents\GitHub\VoiceGPT-AI-Voice-Chatbot\frontend"

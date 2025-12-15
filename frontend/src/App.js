@@ -16,7 +16,7 @@ function App() {
     try {
       // Send message to backend
       const response = await axios.post("http://localhost:5000/chat", { message: userMessage });
-      const botMessage = response.data.answer;
+      const botMessage = response.data.reply; // <-- Correct key
 
       // Show bot message
       setChat(prev => [...prev, { sender: "Bot", text: botMessage }]);
